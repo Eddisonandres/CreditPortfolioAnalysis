@@ -30,7 +30,7 @@ class CreditSimulation:
         self.CUT_DATE_DATA = 202503 # last cut month of the data simulation (yyyymm)
         self.IMPAIRED = 180 # limit to credit be impaired
         self.BAD_PAYER_WEIGHT = 0.08 # bad payer weight to simulate bad loans
-        self.BAD_PAYER_PAY_WEIGHT = 0.08 # weight to a bad payer pay
+        self.BAD_PAYER_PAY_WEIGHT = 0.8 # weight to a bad payer pay
         self.DAYS_MONTH = 30 # days in the month to calculate the days past due
         self.AGENCIES = {
             # offices of the simulated company

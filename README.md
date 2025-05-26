@@ -79,7 +79,11 @@ This Power BI report was built using the loans_data_filtered.csv dataset. It pro
 
 ## 🔧 Requirements
 
-Install Python dependencies:
+✔ Install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+✔ Required File for Power BI:
+
+Make sure to load `loans_data_filtered.csv` into your Power BI report. It is the only dataset used to drive all visuals and measures. The report expects this file to be present in the project directory or linked manually via Power Query.
